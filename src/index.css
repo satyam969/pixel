@@ -1,0 +1,98 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.stats{
+
+display: flex;
+
+width: 65vw;
+height: 30vh;
+
+}
+.cards p{
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  
+}
+
+.cards{
+  width:24vw;
+  height: 18vh;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 1px 1px 5px black ;
+margin: 2%;
+/* border: 2px solid black; */
+  border-radius: 2em;
+}
+.leftsidebox{
+  height: 90vh;
+  width: 19vw;
+  margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .leftsidebox h1{
+    display: inline;
+  }
+  .rev{
+
+width:12vw;
+height: 18vh;
+border-radius:6em ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4%;
+margin: 1%;
+
+  }
+  .users{
+    display: flex;
+
+width: 65vw;
+height: 30vh;
+  }
+  .orders{
+    display: flex;
+
+    width: 65vw;
+    height: 30vh; 
+  }
+  .tableco{
+height: 100%;
+width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tableco h1{
+    white-space: nowrap;
+  }
+  .maincont{
+    display: flex;
+    
+
+
+  }
+  .flc{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .opt span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+  .opt{
+
+height: 8vh;
+
+
+
+  }
